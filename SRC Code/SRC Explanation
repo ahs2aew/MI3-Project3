@@ -1,1 +1,17 @@
-This folder will contain source code. 
+We utilized python and Gephi to complete the analysis for this project.
+
+Python:
+Python was used to create a sample size of 80,000 for the twitter dataset in order to have around the same
+sample size for all social platforms.
+
+Gephi:
+Gephi is a network analysis tool that can intake large network datasets and 
+create visuals as well asperform statisical analysis on them. To use gephi,
+we clicked on "New Project" then from the menu bar we clicked on "Data Laboratory" 
+and there is an option labeled "Import Spreadsheet" that allowed us to 
+directly imported the datasets either as a csv or excel file. After importing the data,
+we clicked on "Overview" to see the inital graph. To improve the visual, we chose to use
+the OpenOrd algorithm from the layout drop down menue and ran the software again to 
+show the new visual with the selected layout. We kept the default setting for the layout. 
+To run statistical tests, we clicked on the statistics tab and run the statistics for 
+average clustering coefficient and average path length.
