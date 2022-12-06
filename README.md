@@ -17,7 +17,7 @@ excel or csv to be be used on Gephi.
 
 Usage the Software: 
 Once the datasets have been converted to excel or csv, they can be directly imported to a workspace on Gephi. After
-importing the dataset, you will select the OpenOrd algorthim layout and running different statistical tests.
+importing the dataset, you will select the OpenOrd algorthim layout and run different statistical tests, including average path length and the average clustering coefficient.
 
 ## DATA 
 
