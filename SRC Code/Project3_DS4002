@@ -1,0 +1,22 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Nov 27 18:49:54 2022
+
+@author: salemkeleta
+"""
+import pandas as pd
+import random
+from random import sample
+
+
+# creating a random sample of 80,000 edges for twitter data 
+# so we can have around the same sample sizes for all social platforms
+
+twitter = pd.read_csv("/Users/salemkeleta/Documents/DS4002_project3/twitter_combined.csv")
+sampledata1 = twitter.sample(n=80000)
+sampledata1.to_excel('twitter_random_80.xlsx')
+
+
+
+
